@@ -1,0 +1,9 @@
+.section-carrousel-content {
+    padding: 20px 0 0 100px;
+}
+
+@media (max-width: 800px){
+    .section-carrousel-content {
+        padding: 0 0 0 50px;
+    }
+}

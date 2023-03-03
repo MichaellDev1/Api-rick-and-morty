@@ -1,0 +1,20 @@
+.item-carrousel {
+    width: 300px;
+    height: 200px;
+}
+
+
+.item-carrousel:first-child {
+    margin-left: 0;
+}
+
+.item-carrousel:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 700px){
+    .item-carrousel {
+        width: 250px;
+        height: 150px;
+    }
+}
